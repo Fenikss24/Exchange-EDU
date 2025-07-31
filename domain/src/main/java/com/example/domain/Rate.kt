@@ -1,0 +1,41 @@
+package com.example.domain
+
+data class Rate(
+    val date: String,
+    val base: String,
+    val rates: Rates,
+)
+
+data class Rates(
+    val EUR: Double,
+    val USD: Double,
+    val JPY: Double,
+    val BGN: Double,
+    val CZK: Double,
+    val DKK: Double,
+    val GBP: Double,
+    val HUF: Double,
+    val PLN: Double,
+    val RON: Double,
+    val SEK: Double,
+    val CHF: Double,
+    val ISK: Double,
+    val NOK: Double,
+    val TRY: Double,
+    val AUD: Double,
+    val BRL: Double,
+    val CAD: Double,
+    val CNY: Double,
+    val HKD: Double,
+    val IDR: Double,
+    val ILS: Double,
+    val INR: Double,
+    val KRW: Double,
+    val MXN: Double,
+    val MYR: Double,
+    val NZD: Double,
+    val PHP: Double,
+    val SGD: Double,
+    val THB: Double,
+    val ZAR: Double,
+)
